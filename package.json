@@ -1,0 +1,31 @@
+{
+  "name": "eton_fbgroups_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js --headless=new",
+	"start_browser": "node index.js",
+  "start_single_post": "node scrape_post.js --headless=new",
+	"start_singe_post_browser": "node scrape_post.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmtgur/eton_fbgroups_scrapper.git"
+  },
+  "author": "Ahmet Gürbüz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmtgur/eton_fbgroups_scrapper/issues"
+  },
+  "homepage": "https://github.com/ahmtgur/eton_fbgroups_scrapper#readme",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "mysql2": "^3.11.0",
+    "puppeteer": "^24.7.2",
+    "sequelize": "^6.37.3",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}

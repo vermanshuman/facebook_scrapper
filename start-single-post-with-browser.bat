@@ -1,0 +1,2 @@
+call npm run start_singe_post_browser
+pause
